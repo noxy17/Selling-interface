@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instilox</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="main">
+        <img src="InstiOLX_wall2.01.png" alt="logo" height="100px">
+		<h3>Sell Your Item </h3>
+		<form action="">
+			<label for="Name">Name Of Item:</label>
+			<input type="text"
+				id="Name"
+				name="Name">
+
+            <label for="image">Pictures Of Item:</label>
+            <input type="file"
+            id="image"
+            name="image">
+
+            <label for="Description">Description of Item:</label>
+			<input type="text"
+				id="desc"
+				name="desc">
+                
+
+			<label for="Brand">Brand Name:</label>
+			<input type="text"
+				id="Brand"
+				name="Brand">
+
+            <label for="buying_date">Date of Buying:</label>
+            <input type="datetime-local"
+                id="buyingdate"
+                name="buyingdate">
+
+            <label for="price">Price:</label>
+            <input type="number"
+                id="price"
+                name="price">
+            <label for="sellername">Seller's Name:</label>
+            <input type="text"
+            id="sellername"
+            name="sellername">
+
+            <label for="Phonenumber">Phone Number:</label>
+            <input type="tel"
+            id="Phonenumber"
+            name="Phonenumber" pattern="[0-9]{10}" title="10 digit phone number">
+
+            <label for="location">Seller's Location:</label>
+            <input type="text"
+            id="location"
+            name="location">
+            
+			<div class="post">
+				<button type="post" onclick="solve()">    Post      </button>
+			</div>
+		</form>
+		
+	</div>
+</body>
+</html>

@@ -20,10 +20,6 @@ body {
 	text-align: center;
 }
 
-h1 {
-	color: black;
-}
-
 label {
 	display: block;
 	width: 100%;
@@ -58,7 +54,7 @@ button {
 	font-size: 16px;
 }
 
-.Submittion {
+.post {
 	display: flex;
 	justify-content: center;
 	align-items: center;
